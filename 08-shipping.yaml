@@ -47,7 +47,7 @@
       chdir: /app
   - name: copy shipping service
     template:
-      src: shipping.service.j2
+      src: shipping.service
       dest: /etc/systemd/system/shipping.service
 
   - name: install python dependencies
