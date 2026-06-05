@@ -75,4 +75,4 @@
     service:
       name: shipping
       state: restarted
-      enabledd: yes
+      enabled: yes
